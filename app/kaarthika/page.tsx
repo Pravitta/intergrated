@@ -1,4 +1,4 @@
-import { QuoteGenerator } from "@/components/quote-generator";
+import { QuoteGenerator } from "@/components/kaarthika/quote-generator";
 
 export default function Home() {
   return (
