@@ -1,5 +1,5 @@
 import Link from "next/link";
-import DashboardContent from "../components/DashboardContent";
+import DashboardContent from "../../components/DashboardContent";
 
 export default function DashboardPage() {
   return (
@@ -36,7 +36,7 @@ export default function DashboardPage() {
               <span className="absolute -top-6 -right-2 text-5xl opacity-40 animate-pulse">✨</span>
             </div>
             <Link 
-              href="/" 
+              href="/pravitta" 
               className="px-6 py-3 rounded-full border-2 border-primary/40 bg-white/40 hover:bg-primary/10 transition-all text-sm font-black text-primary hover:text-primary-foreground whitespace-nowrap shadow-md"
             >
               ← Sign out

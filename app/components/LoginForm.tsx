@@ -39,7 +39,7 @@ export default function LoginForm() {
   const onSubmit = (data: LoginFormValues) => {
     setIsLoading(true);
     // Simulate API call
-    setTimeout(() => router.push("/dashboard"), 800);
+    setTimeout(() => router.push("/pravitta/dashboard"), 800);
   };
 
   return (
