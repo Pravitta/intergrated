@@ -17,7 +17,11 @@ const loginSchema = z.object({
   remember: z.boolean(),
 });
 
-type LoginFormValues = z.infer<typeof loginSchema>;
+interface LoginFormValues {
+  username: string;
+  password: string;
+  remember: boolean;
+}
 
 export default function LoginForm() {
   const router = useRouter();
